@@ -1,5 +1,5 @@
 {% set name = "sqlalchemy-risingwave" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sqlalchemy-risingwave-{{ version }}.tar.gz
-  sha256: 856a3c44b98cba34d399c3cc9785a74896caca152b3685d87553e4210e3e07a4
+  sha256: 07ce402a66502dcbdbbb16059f39fac6035c5f6911cd577ebedbd76eba558efe
 
 build:
   noarch: python
